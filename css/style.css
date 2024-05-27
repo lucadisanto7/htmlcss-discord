@@ -124,12 +124,26 @@ h2{
     margin-top: 30px;
 }
 .discord-server{
-    font-size: 21px;
+    font-size: 18px;
     padding-top: 35px;
     line-height: 32px;
 }
+#item2{
+    float: right;
+}
 .grey{
-    background-color: rgb(206, 206, 206);
+    background-color: #EEEEEB;
+}
+#wave{
+    width: 100%;
+    filter: invert(98%) sepia(0%) saturate(4412%) hue-rotate(214deg) brightness(106%) contrast(87%);
+    display: flex;
+}
+#wave-180{
+    width: 100%;
+    filter: invert(98%) sepia(0%) saturate(4412%) hue-rotate(214deg) brightness(106%) contrast(87%);
+    display: flex;
+    rotate: 180deg;
 }
 .main-container-lg{
     max-width: 1200px;
