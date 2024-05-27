@@ -141,15 +141,12 @@ h2{
 .grey{
     background-color: #EEEEEB;
 }
-#wave{
+.wave{
     width: 100%;
     filter: invert(98%) sepia(0%) saturate(4412%) hue-rotate(214deg) brightness(106%) contrast(87%);
     display: flex;
 }
-#wave-180{
-    width: 100%;
-    filter: invert(98%) sepia(0%) saturate(4412%) hue-rotate(214deg) brightness(106%) contrast(87%);
-    display: flex;
+.wave-180{
     rotate: 180deg;
 }
 .main-container-lg{
@@ -170,7 +167,6 @@ h3{
 }
 .lightblue-bg{
     background-color: #7289da;
-    color: white;
 }
 #stars{
     width: 56%;
@@ -195,7 +191,6 @@ h3{
 }
 #italiano{
     vertical-align: middle;
-    color: white;
     margin-top: 20px;
     display: inline-block;
 }
@@ -205,7 +200,6 @@ h3{
 }
 .footer-ul{
 line-height: 40px;
-color: white;
 float: center;
 }
 .main-container-two{
@@ -214,9 +208,9 @@ float: center;
     padding-bottom: 50px;
 }
 .image-size{
- width: 20px;
- margin-top: 15px;
- margin-right: 18px;
+    width: 20px;
+    margin-top: 15px;
+    margin-right: 18px;
 }
 .image-color{
     filter: invert(109%) sepia(0%) saturate(0%) hue-rotate(343deg) brightness(500%) contrast(103%);
@@ -238,11 +232,7 @@ hr{
     font-size: 20px;
     padding-bottom: 40px;
 }
-.footer-logo{ 
+.footer-logo, .footer-button{ 
     margin: 20px 0px; 
-}
-.footer-button{
-    margin: 20px 0px;
     font-size: 20px;
 }
-
