@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+     background-color: rgba(93, 204, 255, 0.788);
+
+}
+.margin-zero{
+    margin: 0 auto;
+}
+.border-black{
+    border: 2px dashed black; 
+}
+.header-container{
+    height: 80px;
+    padding-top: 15px;
+    max-width: 1200px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.head-col20{
+    width: 20%;
+    height: 50px;
+    height: 50px;
+    background-color: rgb(230, 157, 0);
+    align-content: center;
+}
+.content-right{
+    text-align: right;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.content{
+    padding-left: 10px;
+    font-size: 20px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 17px;
+    font-size: 20px;
+}
+.head-col60{
+    width: 60%;
+    height: 100%;
+    height: 50px;
+    background-color: rgb(230, 157, 0);
+    align-content: center;
+}
+.blue{
+    background-color: rgb(0, 0, 165);
+}
+.main-container-sm{
+    height: 500px;
+    padding: 50px 0px; 
+    max-width: 990px;
+}
+.col-100{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 144, 246);
+}
+.main-container{
+    max-width: 1200px;
+    height: 600px;
+    padding: 50px 0px;
+}
+.col-60{
+    width: 60%;
+    height: 500px;
+    background-color: rgba(28, 152, 209, 0.87);
+}
+.col-40{
+    width: 40%;
+    height: 500px;
+    background-color: rgb(245, 173, 207);
+}
+.grey{
+    background-color: rgb(206, 206, 206);
+}
+.main-container-lg{
+    max-width: 1200px;
+    height: 900px;
+    padding: 50px 0px;
+}
+.col-100-lg{
+    width: 100%;
+    height: 800px;
+    background-color: green;
+}
+.black{
+    background-color: rgba(0, 0, 0, 0.726);
+}
+.main-container-two{
+    max-width: 1200px;
+    height: 600px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.col-32{
+    width: calc(100% / 3);
+    height: 540px;
+    background-color: rgb(240, 120, 120);
+}
+.col-16{
+    width: calc(100% / 6);
+    height: 540px;
+    background-color: rgb(39, 170, 153);
+    border: 2px dashed rgb(255, 255, 255);
+}
+.footer-col{
+    width: 100%;
+    height: 65px;
+    background-color: rgb(52, 250, 191);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 20px;
+}
+.pink{
+    background-color: rgb(235, 169, 169);
+}
+
+.footer-logo{ 
+    margin: 20px 0px; 
+}
+.footer-button{
+    margin: 20px 0px;
+    font-size: 20px;
+}
