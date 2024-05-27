@@ -32,7 +32,6 @@ a{
 }
 .head-col20{
     width: 20%;
-    height: 50px;
     align-content: center;
     padding-top: 20px;
 }
@@ -54,7 +53,6 @@ ul{
     color: white;
 }
 .main-container-sm{
-    height: 500px;
     padding: 50px 0px; 
     max-width: 990px;
 }
@@ -67,7 +65,6 @@ ul{
 }
 .col-100{
     width: 100%;
-    height: 500px;
     padding-top: 53px;
 }
 h1{
@@ -107,16 +104,13 @@ h1{
 }
 .main-container{
     max-width: 1200px;
-    height: 600px;
     padding: 50px 0px;
 }
 .col-60{
     width: 60%;
-    vertical-align: middle;
 }
 .col-40{
     width: 40%;
-    vertical-align: middle;
     text-align: start;
 }
 h2{
@@ -147,13 +141,14 @@ h2{
 }
 .main-container-lg{
     max-width: 1200px;
-    height: 900px;
     padding: 50px 0px;
 }
 .col-100-lg{
     width: 100%;
-    height: 800px;
-    background-color: green;
+    text-align: center;
+}
+#item4-big{
+    width: 100%;
 }
 .black{
     background-color: rgba(0, 0, 0, 0.726);
