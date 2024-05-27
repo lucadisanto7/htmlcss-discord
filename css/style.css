@@ -149,6 +149,24 @@ h2{
 }
 #item4-big{
     width: 100%;
+    padding-bottom: 60px;
+}
+h3{
+    font-size: 33px;
+    margin-top: -20px;
+}
+.lightblue-bg{
+    background-color: #7289da;
+    color: white;
+}
+#stars{
+    width: 56%;
+}
+.label-two{
+    font-size: 26px;
+    border-radius: 30px;
+    padding: 15px 20px;
+    margin-bottom: 120px;
 }
 .black{
     background-color: rgba(0, 0, 0, 0.726);
